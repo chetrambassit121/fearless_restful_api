@@ -16,14 +16,14 @@ Application Details:
 
 <h2>INSTALLTION / INITIAL SET UP GUIDLINES</h2><br>
 <b>SECTION 1: CLONE PROJECT / INITIAL TERMINAL SETUP ON VSC </b><br>
-1.	Open new window in VSC<br>
-2.	Open command palette (crtl+shift+p)<br>
-3.	Search for and select git clone (download extension if necessary)<br>
+1.	Open a new window in VSC<br>
+2.	Open the command palette (crtl+shift+p)<br>
+3.	Search for, and then select git clone (download extension if necessary)<br>
 4.	Enter the following link (https://github.com/chetrambassit121/fearless_restful_api.git)<br> 
-5.	Select, or create a new, repository location<br>
+5.	Select, or create a new, repository location for this clone to be saved in<br>
 6.	Open the repository in VSC<br>
 7.	Open a new Terminal (crtl+shift+`)<br>
-8.	Create a new virtual environment. ‘python -m venv venv’ (make sure you create while being within the directory. Enter the ‘cd ..’ command in the terminal if needed.)<br>
+8.	Create a new virtual environment. ‘python -m venv venv’ (make sure you create while being within the directory. Enter the ‘cd ..’ command in the terminal if needed)<br>
 9.	Activate the virtual environment, ‘venv/Scripts/activate’<br>
 10.	Change directory to project folder ‘cd fearless/’<br>
 
@@ -59,10 +59,13 @@ SECTION 6: INSTALLING OTHER APPS or LIBRARIES / FREEZING INTO REQUIREMENTS<br>
 
   
 <h3>CONCLUSION:</h3><br>
-This RESTful API is now connected locally to you Docker Desktop App and can be accessed on localhost:3000  <br>
+This RESTful API is now connected locally to you Docker Desktop App and can be accessed on localhost:3000<br>
+You can now just run 'docker-compose up' to start the server and go to localhost:3000!<br>
+To change the port number in the terminal run 'docker-compose run --rm web python manage.py runserver <port_number>'<br>
+To change the port number manully go to Docker-compose.yml, under web:/commands and web:/ports<br>
   
 
-<h3>REBOOTING APPLICATION</h3><br>
+
 
 
 

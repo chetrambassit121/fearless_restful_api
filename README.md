@@ -30,7 +30,7 @@ SECTION 2: DOCKER COMMANDS TO START/INITIAL BUILD OF CONTAINER/IMAGE:<br>
 
 
 MUST DO SECTION 2<br>
-SECTION 3: PYTHON MAKEMIGRATIONS/MIGRATE COMMANDS THROUGH DOCKER<br>  
+SECTION 3: PYTHON MAKEMIGRATIONS/MIGRATE COMMANDS THROUGH DOCKER
 14.	 Enter the command ‘docker-compose run --rm web python manage.py makemigrations’<br>
 15.	 Enter the command ‘docker-compose run --rm web python manage.py migrate’<br>
 

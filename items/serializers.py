@@ -3,27 +3,30 @@ from items.models import Item
 from django.contrib.auth.models import User
 
 
-"""
-Creating an Item Serialzier, will contain a hyperlink to Item Instance (Item Detail)
-"""
-class ItemSerializer(serializers.HyperlinkedModelSerializer):
 
+class ItemSerializer(serializers.HyperlinkedModelSerializer):
     """
-    Inner class, defining the model and fields for the Item Serializer
+    Creating an Item Serialzier, will contain a hyperlink to Item Instance (Item Detail)
     """
+   
     class Meta:
+        """
+        Inner class, defining the model and fields for the Item Serializer
+        """
         model = Item
         fields = ['url', 'id', 'name']
 
-"""
-Creating an User Serialzier, will contain a hyperlink to User Instance (User Detail)
-"""
-class UserSerializer(serializers.HyperlinkedModelSerializer):
 
+class UserSerializer(serializers.HyperlinkedModelSerializer):
     """
-    Inner class, defining the model and fields for the User Serializer
+    Creating an User Serialzier, will contain a hyperlink to User Instance (User Detail)
     """
+
+   
     class Meta:
+        """
+        Inner class, defining the model and fields for the User Serializer
+        """
         model = User
         fields = ['url', 'id', 'username']
 

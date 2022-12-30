@@ -17,8 +17,7 @@ Application Details:
 
 <h2>INSTALLTION / INITIAL SET UP GUIDLINES</h2><br>
 <b>SECTION 1: CLONE PROJECT / INITIAL TERMINAL SETUP ON VSC </b><br>
-1.	Open a new window in VSC<br>
-![Screenshot (1)](https://user-images.githubusercontent.com/75236091/210103569-721e76b0-04b0-49e9-a117-31d99ed85b53.png)<br><br>
+1.	Open a new window in VSC<br>![Screenshot (1)](https://user-images.githubusercontent.com/75236091/210106588-38684eec-2b41-436a-890f-14e196c3e532.png)<br><br>
 2.	Open the command palette (crtl+shift+p)<br>
 ![Screenshot (2)](https://user-images.githubusercontent.com/75236091/210103818-759ead08-4740-422e-b7db-6272e33c1be0.png)<br><br>
 3.	Search for, and then select git clone (download extension if necessary)<br>
@@ -60,6 +59,13 @@ SECTON 4: RUN PYTHON SERVER THROUGH DOCKER</b><br>
 20.	Enter the command ‘docker exec -it <container_id> python manage.py createsuperuser’<br>
 21.	Fill in form<br>![Screenshot (15)](https://user-images.githubusercontent.com/75236091/210106281-932d028b-3416-4567-be94-8a33395e1890.png)<br><br>
 
+
+<b>SECTION 6: CREATING ITEMS THROUGH THE ADMIN PANEL</b><br>
+22.	Enter the command ‘docker-compose run’ to runserver if needed<br>
+23.	Go to localhost:3000/admin, then log in (Create superuser if needed SECTION 5)<br>![Screenshot (18)](https://user-images.githubusercontent.com/75236091/210107082-7d89f639-2296-4a50-8e2a-c76b230df281.png)<br><br>
+24.	Select the +add button near the Items panel<br>![Screenshot (19)](https://user-images.githubusercontent.com/75236091/210107185-bfd9ab5d-1700-40cb-a9c2-e434870e5ae4.png)<br><Br>
+25.	Fill in a name for the Item and click post<br><br>![Screenshot (20)](https://user-images.githubusercontent.com/75236091/210107264-01c9c09a-ac65-43fd-b845-28588daa9d72.png)<br><br>
+26. Item added successfully. Repeat steps 22-25 to create more Items.<br>![Screenshot (21)](https://user-images.githubusercontent.com/75236091/210107329-1834e269-c903-46fa-8f94-4fa8cc9675c8.png)<br><br>
 
 <b>SECTION 6: INSTALLING OTHER APPS or LIBRARIES / FREEZING INTO REQUIREMENTS</b><br>
 22.	Enter the command ‘docker-compose run --rm web pip install <name>’<br>

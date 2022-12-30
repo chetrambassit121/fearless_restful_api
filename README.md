@@ -15,7 +15,7 @@ Application Details:
 - Contains a PostgreSQL database,
 - runs on port:3000 automatically 
 
-<h2>INSTALLTION / INITIAL SET UP GUIDLINES</h2><br>
+<h2>INSTALLATION / INITIAL SET UP GUIDLINES</h2><br>
 <b>SECTION 1: CLONE PROJECT / INITIAL TERMINAL SETUP ON VSC </b><br>
 1.	Open a new window in VSC<br>![Screenshot (1)](https://user-images.githubusercontent.com/75236091/210106588-38684eec-2b41-436a-890f-14e196c3e532.png)<br><br>
 2.	Open the command palette (crtl+shift+p)<br>
@@ -78,12 +78,12 @@ This RESTful API is now connected locally to you Docker Desktop App and can be a
 <b><h3>General Commands/Edits after installation/initial set up</h3></b>
 1. To start the server and have access to localhost:3000, enter the command 'docker-compose up'<br>
 2. To run the server on a specfic port number, enter the command 'docker-compose run --rm web python manage.py runserver port_number'<br>
-3. To change the port number manully go to Docker-compose.yml, under web:/commands and web:/ports<br>
+3. To change the port number manully go to Docker-compose.yml, under web:/commands and web:/ports<br>![Screenshot (22)](https://user-images.githubusercontent.com/75236091/210107773-e97e73e8-0e28-4001-8fa1-eb2f88586e7e.png)<br><br>
 4. To exit from Docker enter crtl+c
   
 
 <b><h3>POTENTIAL FUTURE CHANGES</h3></b>
-1. Creating more fields (price, made_from, etc...) for the Items Model
+1. Creating more fields (price, made_from, etc...) for the Items Model for more data and backend experience
 2. Connecting this API to a JavaScript Framework (React, AngularJS) for better frontend experince
 3. User Authentication System
   

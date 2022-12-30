@@ -10,12 +10,11 @@ Technologies used for this Application:
 - Visual Studio Code (Text-Editor)
 
 Application Details:
-- 
-- runs on port:3000 ()
+- Formatted for Docker containerization 
+- Contains a PostgreSQL database
+- runs on port:3000 automatically 
 
 <h2>INSTALLTION / INITIAL SET UP GUIDLINES</h2>
-
-
 <b>SECTION 1: CLONE PROJECT / INITIAL TERMINAL SETUP ON VSC </b>
 1.	Open new window in VSC
 2.	Open command palette (crtl+shift+p)
@@ -60,7 +59,12 @@ SECTION 6: INSTALLING OTHER APPS or LIBRARIES / FREEZING INTO REQUIREMENTS<br>
 
   
 <h3>CONCLUSION:</h3><br>
-This RESTful API is now connected locally to you Docker Desktop App and can be accessed on localhost:3000  
+This RESTful API is now connected locally to you Docker Desktop App and can be accessed on localhost:3000  <br>
+  
+
+<h3>REBOOTING APPLICATION</h3><br>
+
+
 
 
 

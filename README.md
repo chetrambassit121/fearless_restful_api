@@ -19,17 +19,38 @@ Languages and Frameworks Used:
 7.	Open a new Terminal (crtl+shift+`)
 8.	Create a new virtual environment. ‘python -m venv venv’ (make sure you create while being within the directory. Enter the ‘cd ..’ command in the terminal if needed.)
 9.	Activate the virtual environment, ‘venv/Scripts/activate’
-10.	Change directory to project folder ‘cd fearless/’
+10.	Change directory to project folder ‘cd fearless/’<br>
 
 
 MUST DO SECTION 1<br>
 SECTION 2: DOCKER COMMANDS TO START/INITIAL BUILD OF CONTAINER/IMAGE:<br>
-  11.	 Open up the Docker Desktop App (download if necessary)<br>
-  12.	 Enter the command ‘docker-compose ’, this will start or execute the initial build of the container/image. Leave this terminal running.<br>
-  13.	 Open up, and select, a new terminal (split with VSC). Repeat steps 9-10 if necessary. 
+11.	 Open up the Docker Desktop App (download if necessary)<br>
+12.	 Enter the command ‘docker-compose ’, this will start or execute the initial build of the container/image. Leave this terminal running.<br>
+13.	 Open up, and select, a new terminal (split with VSC). Repeat steps 9-10 if necessary.<br>
 
 
 MUST DO SECTION 2<br>
 SECTION 3: PYTHON MAKEMIGRATIONS/MIGRATE COMMANDS THROUGH DOCKER<br>  
-  14.	 Enter the command ‘docker-compose run --rm web python manage.py MAKEMIGRATIONS’<br>
-  15.	 Open up localhost:3000 in your browser
+14.	 Enter the command ‘docker-compose run --rm web python manage.py makemigrations’<br>
+15.	 Enter the command ‘docker-compose run --rm web python manage.py migrate’<br>
+
+MUST DO SECTION 3<br>
+SECTON 4: RUN PYTHON SERVER THROUGH DOCKER<br>
+16.	Enter the command ‘docker-compose run --rm web python manage.py runserver’<br>
+17.	Open up localhost:3000 in your browser<br>
+
+
+SECTION 5: GET DOCKER CONTAINER ID / CREATE A SUPERUSER<br>
+18.	Enter the command ‘docker ps -aqf "name=fearless"’ to get the container id. (Two id’s will appear)<br>
+19.	Copy the id on the top row<br>
+20.	Enter the command ‘docker exec -it <container_id> python manage.py createsuperuser’<br>
+21.	Fill in form<br>
+
+
+SECTION 6: INSTALLING OTHER APPS or LIBRARIES / FREEZING INTO REQUIREMENTS<br>
+22.	Enter the command ‘docker-compose run --rm web pip install <name>’<br>
+23.	Enter the command ‘docker-compose run --rm web pip freeze > requirements.txt’<br>
+
+
+
+

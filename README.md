@@ -1,10 +1,17 @@
 <h2>Developed by FEARLESS</h2>
 <h3>RESTful API in which a client can do various CRUD operations on an Item Object</h3>
 
-Languages and Frameworks Used:
-- Python, 
-- Django WEB Framework, 
-- Django REST Framework
+Technologies used for this Application:
+- Python (Language), 
+- Django WEB Framework (Python Framework), 
+- Django REST Framework (Python Framework),
+- Docker (Container)
+- PostgreSQL (Database)
+- Visual Studio Code (Text-Editor)
+
+Application Details:
+- 
+- runs on port:3000 ()
 
 <h2>INSTALLTION / INITIAL SET UP GUIDLINES</h2>
 
@@ -30,7 +37,7 @@ SECTION 2: DOCKER COMMANDS TO START/INITIAL BUILD OF CONTAINER/IMAGE:<br>
 
 
 MUST DO SECTION 2<br>
-SECTION 3: PYTHON MAKEMIGRATIONS/MIGRATE COMMANDS THROUGH DOCKER
+SECTION 3: PYTHON MAKEMIGRATIONS/MIGRATE COMMANDS THROUGH DOCKER<br>
 14.	 Enter the command ‘docker-compose run --rm web python manage.py makemigrations’<br>
 15.	 Enter the command ‘docker-compose run --rm web python manage.py migrate’<br>
 
@@ -51,6 +58,9 @@ SECTION 6: INSTALLING OTHER APPS or LIBRARIES / FREEZING INTO REQUIREMENTS<br>
 22.	Enter the command ‘docker-compose run --rm web pip install <name>’<br>
 23.	Enter the command ‘docker-compose run --rm web pip freeze > requirements.txt’<br>
 
+  
+<h3>CONCLUSION:</h3><br>
+This RESTful API is now connected locally to you Docker Desktop App and can be accessed on localhost:3000  
 
 
 

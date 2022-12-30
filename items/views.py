@@ -16,8 +16,8 @@ from rest_framework import status
 @api_view(['GET'])
 def api_root(request, format=None):
     """
-    Defining api root function to register the viewsets with the router
-    Django REST Documentation: https://www.django-rest-framework.org/tutorial/6-viewsets-and-routers/
+    Creating an endpoint for the root of our API
+    Django REST Framework Documentation: https://www.django-rest-framework.org/tutorial/5-relationships-and-hyperlinked-apis/
     """
     return Response({
         'users': reverse('user-list', request=request, format=format),

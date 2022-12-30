@@ -9,7 +9,7 @@ Languages and Frameworks Used:
 <h2>INSTALLTION / INITIAL SET UP GUIDLINES</h2>
 
 
-SECTION 1: CLONE PROJECT / INITIAL TERMINAL SETUP ON VSC 
+<b>SECTION 1: CLONE PROJECT / INITIAL TERMINAL SETUP ON VSC </b>
 1.	Open new window in VSC
 2.	Open command palette (crtl+shift+p)
 3.	Search for and select git clone (download extension if necessary)

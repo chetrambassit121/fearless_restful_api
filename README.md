@@ -18,12 +18,19 @@ Application Details:
 <h2>INSTALLTION / INITIAL SET UP GUIDLINES</h2><br>
 <b>SECTION 1: CLONE PROJECT / INITIAL TERMINAL SETUP ON VSC </b><br>
 1.	Open a new window in VSC<br>
+![Screenshot (1)](https://user-images.githubusercontent.com/75236091/210103569-721e76b0-04b0-49e9-a117-31d99ed85b53.png)<br><br>
 2.	Open the command palette (crtl+shift+p)<br>
+![Screenshot (2)](https://user-images.githubusercontent.com/75236091/210103818-759ead08-4740-422e-b7db-6272e33c1be0.png)<br><br>
 3.	Search for, and then select git clone (download extension if necessary)<br>
+![Screenshot (3)](https://user-images.githubusercontent.com/75236091/210103976-f9c35867-76cb-4da5-8a92-87dcb413df94.png)<br><br>
 4.	Enter the following link (https://github.com/chetrambassit121/fearless_restful_api.git)<br> 
+![Screenshot (4)](https://user-images.githubusercontent.com/75236091/210104106-44ff7e64-5c22-4d72-8627-6bea3a54cc4c.png)<br><br>
 5.	Select, or create a new, repository location for this clone to be saved in<br>
+![Screenshot (5)](https://user-images.githubusercontent.com/75236091/210104296-99b1cf40-cb77-4524-9e03-a781de5531b8.png)<br><br>
 6.	Open the repository in VSC<br>
+![Screenshot (6)](https://user-images.githubusercontent.com/75236091/210104371-a8d200ad-08a8-4a7b-9e8f-4327f27cc2cc.png)<br><br>
 7.	Open a new Terminal (crtl+shift+`)<br>
+![Screenshot (7)](https://user-images.githubusercontent.com/75236091/210104445-32e76ffb-c94c-4ab5-8039-56dcae3eeb74.png)<br><br>
 8.	Create a new virtual environment. ‘python -m venv venv’ (make sure you create while being within the directory. Enter the ‘cd ..’ command in the terminal if needed)<br>
 9.	Activate the virtual environment, ‘venv/Scripts/activate’<br>
 10.	Change directory to project folder ‘cd fearless/’<br><br>

@@ -2,16 +2,16 @@
 <h3>RESTful API in which a client can do various CRUD operations on an Item Object</h3>
 
 Technologies used for this Application:
-- Python (Language), 
-- Django WEB Framework (Python Framework), 
-- Django REST Framework (Python Framework),
-- Docker (Container)
-- PostgreSQL (Database)
+- Python (Language) https://www.python.org/downloads/, 
+- Django WEB Framework (Python Framework) https://docs.djangoproject.com/en/4.1/, 
+- Django REST Framework (Python Framework) https://www.django-rest-framework.org/,
+- Docker (Container) https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/django/,
+- PostgreSQL (Database),
 - Visual Studio Code (Text-Editor)
 
 Application Details:
-- Formatted for Docker containerization 
-- Contains a PostgreSQL database
+- Formatted for Docker containerization, 
+- Contains a PostgreSQL database,
 - runs on port:3000 automatically 
 
 <h2>INSTALLTION / INITIAL SET UP GUIDLINES</h2><br>
@@ -61,7 +61,7 @@ SECTION 6: INSTALLING OTHER APPS or LIBRARIES / FREEZING INTO REQUIREMENTS<br>
 <h3>CONCLUSION:</h3><br>
 This RESTful API is now connected locally to you Docker Desktop App and can be accessed on localhost:3000<br>
 You can now just run 'docker-compose up' to start the server and go to localhost:3000!<br>
-To change the port number in the terminal run 'docker-compose run --rm web python manage.py runserver <port_number>'<br>
+To change the port number in the terminal run 'docker-compose run --rm web python manage.py runserver port_number'<br>
 To change the port number manully go to Docker-compose.yml, under web:/commands and web:/ports<br>
   
 

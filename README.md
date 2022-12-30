@@ -14,17 +14,17 @@ Application Details:
 - Contains a PostgreSQL database
 - runs on port:3000 automatically 
 
-<h2>INSTALLTION / INITIAL SET UP GUIDLINES</h2>
-<b>SECTION 1: CLONE PROJECT / INITIAL TERMINAL SETUP ON VSC </b>
-1.	Open new window in VSC
-2.	Open command palette (crtl+shift+p)
-3.	Search for and select git clone (download extension if necessary)
-4.	Enter the following link (https://github.com/chetrambassit121/fearless_restful_api.git) 
-5.	Select, or create a new, repository location
-6.	Open the repository in VSC
-7.	Open a new Terminal (crtl+shift+`)
-8.	Create a new virtual environment. ‘python -m venv venv’ (make sure you create while being within the directory. Enter the ‘cd ..’ command in the terminal if needed.)
-9.	Activate the virtual environment, ‘venv/Scripts/activate’
+<h2>INSTALLTION / INITIAL SET UP GUIDLINES</h2><br>
+<b>SECTION 1: CLONE PROJECT / INITIAL TERMINAL SETUP ON VSC </b><br>
+1.	Open new window in VSC<br>
+2.	Open command palette (crtl+shift+p)<br>
+3.	Search for and select git clone (download extension if necessary)<br>
+4.	Enter the following link (https://github.com/chetrambassit121/fearless_restful_api.git)<br> 
+5.	Select, or create a new, repository location<br>
+6.	Open the repository in VSC<br>
+7.	Open a new Terminal (crtl+shift+`)<br>
+8.	Create a new virtual environment. ‘python -m venv venv’ (make sure you create while being within the directory. Enter the ‘cd ..’ command in the terminal if needed.)<br>
+9.	Activate the virtual environment, ‘venv/Scripts/activate’<br>
 10.	Change directory to project folder ‘cd fearless/’<br>
 
 

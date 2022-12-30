@@ -1,5 +1,5 @@
-Developed by FEARLESS:<br>
-- RESTful API in which a client can do various CRUD operations on an Item Object
+<h2>Developed by FEARLESS</h2><br>
+<h3>RESTful API in which a client can do various CRUD operations on an Item Object</h3>
 
 Languages and Frameworks Used:
 - Python, 

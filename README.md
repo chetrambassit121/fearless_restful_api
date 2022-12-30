@@ -22,14 +22,14 @@ Languages and Frameworks Used:
 10.	Change directory to project folder ‘cd fearless/’
 
 
-MUST DO SECTION 1
-SECTION 2: DOCKER COMMANDS TO START/INITIAL BUILD OF CONTAINER/IMAGE:
-11.	 Open up the Docker Desktop App (download if necessary)
-12.	 Enter the command ‘docker-compose ’, this will start or execute the initial build of the container/image. Leave this terminal running. 
+MUST DO SECTION 1<br>
+SECTION 2: DOCKER COMMANDS TO START/INITIAL BUILD OF CONTAINER/IMAGE:<br>
+11.	 Open up the Docker Desktop App (download if necessary)<br>
+12.	 Enter the command ‘docker-compose ’, this will start or execute the initial build of the container/image. Leave this terminal running.<br>
 13.	 Open up, and select, a new terminal (split with VSC). Repeat steps 9-10 if necessary. 
 
 
-MUST DO SECTION 2
-SECTION 3: PYTHON MAKEMIGRATIONS/MIGRATE COMMANDS THROUGH DOCKER  
-14.	 Enter the command ‘docker-compose run --rm web python manage.py MAKEMIGRATIONS’
+MUST DO SECTION 2<br>
+SECTION 3: PYTHON MAKEMIGRATIONS/MIGRATE COMMANDS THROUGH DOCKER<br>  
+14.	 Enter the command ‘docker-compose run --rm web python manage.py MAKEMIGRATIONS’<br>
 15.	 Open up localhost:3000 in your browser

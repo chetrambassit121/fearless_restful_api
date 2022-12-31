@@ -29,8 +29,8 @@ Application Details:
 6.	Open the repository in VSC<br>![Screenshot (6)](https://user-images.githubusercontent.com/75236091/210104371-a8d200ad-08a8-4a7b-9e8f-4327f27cc2cc.png)<br><br>
 7.	Open a new Terminal (crtl+shift+`)<br>
 ![Screenshot (7)](https://user-images.githubusercontent.com/75236091/210104445-32e76ffb-c94c-4ab5-8039-56dcae3eeb74.png)<br><br>
-8.	Create a new virtual environment. ‘python -m venv venv’ (make sure you create while being within the directory. Enter the ‘cd ..’ command in the terminal if needed)<br>
-9.	Activate the virtual environment, ‘venv/Scripts/activate’<br>
+8.	Create a new virtual environment. ‘python -m venv venv’ (make sure you create while being within the directory. Enter the ‘cd ..’ command in the terminal if needed)<br><br>
+9.	Activate the virtual environment, ‘venv/Scripts/activate’<br><br>
 10.	Change directory to project folder ‘cd fearless/’<br>![Screenshot (8-10)](https://user-images.githubusercontent.com/75236091/210104809-8b05194d-d8c5-4ba7-9113-62f45a22155a.png)<br><br>
 
 
@@ -49,7 +49,7 @@ SECTION 3: PYTHON MAKEMIGRATIONS/MIGRATE COMMANDS THROUGH DOCKER</b><br>
 
 <b>MUST DO SECTION 3<br>
 SECTON 4: RUN PYTHON SERVER THROUGH DOCKER</b><br>
-16.	Exit the docker-compose, then enter the command ‘docker-compose run’<br>
+16.	Exit the initial docker-compose up (crtl+c), then enter the command ‘docker-compose up’ again<br>
 17.	Open up localhost:3000 in your browser<br>![Screenshot (14)](https://user-images.githubusercontent.com/75236091/210105889-c9b1aa5b-c1ae-4365-b206-3d5f3363d53b.png)<br><br>
 
 

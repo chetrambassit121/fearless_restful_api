@@ -2,17 +2,19 @@
 <h3>RESTful API in which a client can do various CRUD operations on an Item Object</h3>
 
 Technologies required/used for this Application:
-- Python (Language) https://www.python.org/downloads/, 
-- Django WEB Framework (Python Framework) https://docs.djangoproject.com/en/4.1/, 
-- Django REST Framework (Python Framework) https://www.django-rest-framework.org/,
-- Docker (Container) https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/django/,
-- Docker Desktop App https://docs.docker.com/get-docker/,
-- PostgreSQL (Database),
+- Python (Language) https://www.python.org/downloads/
+- Django WEB Framework (Python Framework) https://docs.djangoproject.com/en/4.1/
+- Django REST Framework (Python Framework) https://www.django-rest-framework.org/
+- Docker (Container) https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/django/
+- Docker Desktop App https://docs.docker.com/get-docker/
+- PostgreSQL (Database)
 - Visual Studio Code (Text-Editor) https://code.visualstudio.com/Download
 
 Application Details:
-- Formatted for Docker containerization, 
-- Contains a PostgreSQL database,
+- Clients can create, retreive, update, delete a single Item, or delete all Items
+- FEARLESS admins can access the admins panel
+- Formatted for Docker containerization 
+- Contains a PostgreSQL database
 - runs on port:3000 automatically 
 
 <h2>INSTALLATION / INITIAL SET UP GUIDLINES</h2><br>

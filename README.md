@@ -84,7 +84,7 @@ This RESTful API is now connected locally to you Docker Desktop App and can be a
 
 <b><h3>POTENTIAL FUTURE CHANGES</h3></b>
 1. Creating more fields (price, made_from, etc...) for the Items Model for more data and backend experience
-2. Connecting this API to a JavaScript Framework (React, AngularJS) for better frontend experince
+2. Connecting this API to a JavaScript Framework (React, AngularJS) for better frontend experience
 3. User Authentication System
   
 

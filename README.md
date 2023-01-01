@@ -8,7 +8,7 @@ Technologies required/used for this Application:
 - Docker (Container) https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/django/
 - Docker Desktop App https://docs.docker.com/get-docker/
 - PostgreSQL (Database)
-- Visual Studio Code (Text-Editor) https://code.visualstudio.com/Download
+- Visual Studio Code (VSC) (Text-Editor) https://code.visualstudio.com/Download
 
 Application Details:
 - Clients can create, retreive, update, delete a single Item, or delete all Items
@@ -17,8 +17,8 @@ Application Details:
 - Contains a PostgreSQL database
 - runs on port:3000 automatically 
 
-<h2>INSTALLATION / INITIAL SET UP GUIDLINES</h2><br>
-<b>SECTION 1: CLONE PROJECT / INITIAL TERMINAL SETUP ON VSC </b><br>
+<h2>INSTALLATION / INITIAL SET UP GUIDELINES</h2><br>
+<b>SECTION 1: CLONE PROJECT / INITIAL TERMINAL SETUP ON VSC</b><br>
 1.	Open a new window in VSC<br>![Screenshot (1)](https://user-images.githubusercontent.com/75236091/210106588-38684eec-2b41-436a-890f-14e196c3e532.png)<br><br>
 2.	Open the command palette (crtl+shift+p)<br>
 ![Screenshot (2)](https://user-images.githubusercontent.com/75236091/210103818-759ead08-4740-422e-b7db-6272e33c1be0.png)<br><br>

@@ -40,7 +40,7 @@ Application Details:
 SECTION 2: DOCKER COMMANDS TO START/INITIAL BUILD OF CONTAINER/IMAGE:</b><br>
 11.	 Open up the Docker Desktop App (download if necessary)<br>![Screenshot (9)](https://user-images.githubusercontent.com/75236091/210104917-252720c8-006d-4904-b3a0-52c7b7efe30e.png)<br><br>
 
-12.	 Enter the command ‘docker-compose ’, this will start or execute the initial build of the container/image. Leave this terminal running.<br>![Screenshot (10)](https://user-images.githubusercontent.com/75236091/210105110-e5defd20-8954-41ed-a960-c99e62082e85.png)<br><br>
+12.	 Enter the command ‘docker-compose up’, this will start or execute the initial build of the container/image. Leave this terminal running.<br>![Screenshot (10)](https://user-images.githubusercontent.com/75236091/210105110-e5defd20-8954-41ed-a960-c99e62082e85.png)<br><br>
 13.	 Open up, and select, a new terminal (split with VSC). Repeat steps 9-10 if necessary.<br>![Screenshot (11)](https://user-images.githubusercontent.com/75236091/210105383-88ee1010-ab9c-43dc-8724-d901913819d6.png)<br><br>
 
 

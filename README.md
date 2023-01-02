@@ -11,7 +11,7 @@ Technologies required/used for this Application:
 - Visual Studio Code (VSC) (Text-Editor) https://code.visualstudio.com/Download
 
 Application Details:
-- Clients can create, retreive, update, delete a single Item, or delete all Items
+- Clients can create, retrieve, update, delete a single Item, or delete all Items
 - FEARLESS admins can access the admins panel
 - Formatted for Docker containerization 
 - Contains a PostgreSQL database

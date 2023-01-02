@@ -70,8 +70,8 @@ SECTON 4: RUN PYTHON SERVER THROUGH DOCKER</b><br>
 26. Item added successfully. Repeat steps 22-25 to create more Items.<br>![Screenshot (21)](https://user-images.githubusercontent.com/75236091/210107329-1834e269-c903-46fa-8f94-4fa8cc9675c8.png)<br><br>
 
 <b>SECTION 6: INSTALLING OTHER APPS or LIBRARIES / FREEZING INTO REQUIREMENTS</b><br>
-22.	Enter the command ‘docker-compose run --rm web pip install <name>’<br>
-23.	Enter the command ‘docker-compose run --rm web pip freeze > requirements.txt’<br>![Screenshot (16)](https://user-images.githubusercontent.com/75236091/210106515-1f5c4e85-6918-41a5-809a-92a6c38e4931.png)<br><br>
+27.	Enter the command ‘docker-compose run --rm web pip install <name>’<br>
+28.	Enter the command ‘docker-compose run --rm web pip freeze > requirements.txt’<br>![Screenshot (16)](https://user-images.githubusercontent.com/75236091/210106515-1f5c4e85-6918-41a5-809a-92a6c38e4931.png)<br><br>
 
   
 <b><h3>CONCLUSION:</h3></b>

@@ -1,4 +1,3 @@
-<h2>Developed by FEARLESS</h2>
 <h3>RESTful API in which a client can do various CRUD operations on an Item Object</h3>
 
 Technologies required/used for this Application:

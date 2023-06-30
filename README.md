@@ -11,7 +11,7 @@ Technologies required/used for this Application:
 
 Application Details:
 - Clients can create, retrieve, update, delete a single Item, or delete all Items
-- FEARLESS admins can access the admins panel
+- Admins can access the admins panel
 - Formatted for Docker containerization 
 - Contains a PostgreSQL database
 - runs on port:3000 automatically 
